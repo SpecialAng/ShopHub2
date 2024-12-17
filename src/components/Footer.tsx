@@ -48,7 +48,7 @@ export const Footer: React.FC = () => {
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="https://www.facebook.com/zoeyurbae" className="hover:text-white transition-colors">
+              <a href="https://www.facebook.com/profile.php?id=61570473608585&mibextid=ZbWKwL" className="hover:text-white transition-colors">
                 <Facebook className="h-6 w-6" />
               </a>
               <a href="#" className="hover:text-white transition-colors">
