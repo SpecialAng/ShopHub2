@@ -54,7 +54,7 @@ export const Footer: React.FC = () => {
               <a href="#" className="hover:text-white transition-colors">
                 <MessageCircleMore className="h-6 w-6" />
               </a>
-              <a href="https://www.instagram.com/ang.z1p/" className="hover:text-white transition-colors">
+              <a href="https://www.instagram.com/shop_hubb1" className="hover:text-white transition-colors">
                 <Instagram className="h-6 w-6" />
               </a>
             </div>
