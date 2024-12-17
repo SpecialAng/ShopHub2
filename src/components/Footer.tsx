@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, Twitter, Instagram, Mail, MapPin, Phone } from 'lucide-react';
+import { Facebook, WhatsApp, Instagram, Mail, MapPin, Phone } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
@@ -52,7 +52,7 @@ export const Footer: React.FC = () => {
                 <Facebook className="h-6 w-6" />
               </a>
               <a href="#" className="hover:text-white transition-colors">
-                <Twitter className="h-6 w-6" />
+                <WhatsApp className="h-6 w-6" />
               </a>
               <a href="https://www.instagram.com/ang.z1p/" className="hover:text-white transition-colors">
                 <Instagram className="h-6 w-6" />
