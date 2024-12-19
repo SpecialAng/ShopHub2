@@ -1,6 +1,7 @@
 import React from 'react';
 import { categories } from '../data/categories';
 import { products } from '../data/products';
+import { filterFeatured, getLatest } from '../data/products/utils';
 import { carouselImages } from '../data/carousel';
 import { Carousel } from '../components/Carousel';
 import { CategorySection, FeaturedSection } from '../components/home';
@@ -12,8 +13,8 @@ interface HomeProps {
 }
 
 export const Home: React.FC<HomeProps> = ({ onCategoryClick }) => {
-  const featuredProducts = products.filter(product => product.featured);
-  const newProducts = products.slice(0, 8);
+  const featuredProducts = filterFeatured(products);
+  const newProducts = getLatest(products, 8);
 
   return (
     <div className="space-y-12">
