@@ -29,10 +29,13 @@ export const Navbar: React.FC<NavbarProps> = ({
               >
                 <Menu className="h-6 w-6" />
               </button>
-              <div className="flex items-center ml-2 lg:ml-0">
+              <button
+                onClick={() => onNavigate('home')}
+                className="flex items-center ml-2 lg:ml-0 hover:opacity-80 transition-opacity"
+              >
                 <ShoppingBag className="h-6 w-6 text-blue-600" />
                 <span className="ml-2 text-xl font-bold text-gray-800">ShopHub</span>
-              </div>
+              </button>
             </div>
             <div className="flex items-center">
               <div className="hidden lg:flex space-x-8">
